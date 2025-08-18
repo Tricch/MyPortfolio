@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,17 +10,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Passionate about building scalable, user-friendly, and modern applications",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full opacity-80",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Collaboration and transparency are at the heart of my workflow",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,12 +51,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Exploring Linux through the lens of a developer",
+    description: "Exploring Linux ecosystem",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-2 bottom-2 md:w-96 w-60 opacity-80",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b5.png",
     spareImg: "/grid.svg",
   },
   {
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Tricch",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/tricch.svg/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/trilok-chaudhary-988328222/",
   },
 ];
